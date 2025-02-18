@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AnNaHomeStay
+build_property.RootNamespace = AnNaHomeStay
+build_property.ProjectDir = D:\Ki7\PRN221\MyProjectPRN221\AnNaHomeStay\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Ki7\PRN221\MyProjectPRN221\AnNaHomeStay
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Discounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY291bnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Discounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY291bnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Discounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY291bnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Discounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY291bnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Discounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzY291bnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/ForgotPassword/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9yZ290UGFzc3dvcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/HomeStays/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVN0YXlzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/HomeStays/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVN0YXlzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/HomeStays/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVN0YXlzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/HomeStays/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVN0YXlzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/HomeStays/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVN0YXlzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Logout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/MyOrders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlPcmRlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/MyOrders/Vote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlPcmRlcnNcVm90ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ki7/PRN221/MyProjectPRN221/AnNaHomeStay/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fypt6eyn66

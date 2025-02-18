@@ -1,0 +1,104 @@
+﻿@page
+@model AnNaHomeStay.Pages.HomeStays.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<link href="~/css/edit.css" rel="stylesheet" />
+<div class="d-flex justify-content-around">
+    <h1>Thêm mới HomeStay</h1>
+    <h2 style="align-items:center"><a asp-area="" asp-page="/Index" class="btn-close"></a></h2>
+</div>
+
+<hr />
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Homestay.HomestayName" class="control-label"></label>
+                <input asp-for="Homestay.HomestayName" class="form-control" />
+                <span asp-validation-for="Homestay.HomestayName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Homestay.Country" class="control-label"></label>
+                <input asp-for="Homestay.Country" class="form-control" readonly value="Viet Nam" />
+                <span asp-validation-for="Homestay.Country" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Homestay.City" class="control-label"></label>
+               
+                <input asp-for="Homestay.City" class="form-control" />
+                <span asp-validation-for="Homestay.City" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Homestay.District" class="control-label"></label>
+                
+                <input asp-for="Homestay.District" class="form-control" />
+                <span asp-validation-for="Homestay.District" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group">
+                <label asp-for="Homestay.Commune" class="control-label"></label>
+             
+                <input asp-for="Homestay.Commune" class="form-control" />
+                <span asp-validation-for="Homestay.Commune" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Homestay.Address" class="control-label"></label>
+                <input asp-for="Homestay.Address" class="form-control" />
+                <span asp-validation-for="Homestay.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Homestay.Status" /> @Html.DisplayNameFor(model => model.Homestay.Status)
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Homestay.Type" class="control-label"></label>
+                <select asp-for="Homestay.Type" class="form-control" asp-items="ViewBag.HomeStayType"></select>
+                <span asp-validation-for="Homestay.Type" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Homestay.Price" class="control-label"></label>
+                <input asp-for="Homestay.Price" class="form-control" />
+                <span asp-validation-for="Homestay.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Homestay.Description" class="control-label"></label>
+                <textarea asp-for="Homestay.Description" class="form-control"></textarea>
+                <span asp-validation-for="Homestay.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.FileUploads"></label>
+                <input asp-for="@Model.FileUploads" />
+                <span asp-validation-for="@Model.FileUploads"></span>
+            </div>
+
+            @if (Model.UploadedFiles != null && Model.UploadedFiles.Count > 0)
+            {
+                foreach (var item in Model.UploadedFiles)
+                {
+                    <img src="@item" alt="Uploaded Image" class="img-thumbnail" />
+                }
+            }
+
+            <div class="form-group mt-3 mb-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

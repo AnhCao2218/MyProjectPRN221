@@ -1,0 +1,154 @@
+﻿@page
+@model AnNaHomeStay.Pages.HomeStays.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link href="~/css/Manager.css" rel="stylesheet" />
+<link href="~/css/home.css" rel="stylesheet" />
+<h1>Danh sách HomeStay</h1>
+
+<form method="post" class="search" id="searchForm">
+    <input type="text" asp-for="Search.SearchString" placeholder="Nhập Homestay bạn muốn tìm ..." />
+    
+    <div class="form-group">
+        <select class="form-control" asp-for="Search.Status">
+            <option value="true" class="text-primary">Active</option>
+            <option value="false" class="text-primary">InActive</option>
+        </select>
+    </div>
+    <input type="text" id="pageIndexInput" name="pageIndex" value="1" hidden />
+    <button type="submit">Search</button>
+</form>
+
+<p>
+    <a class="btn_action" asp-page="Create">Thêm HomeStay mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên HomeStay
+            </th>
+            <th>
+                Đất nước
+            </th>
+            <th>
+                Thành phố
+            </th>
+            <th>
+                Huyện
+            </th>
+            <th>
+                Xã
+            </th>
+            <th>
+                Cụ thể
+            </th>
+
+            <th>
+                Trạng thái
+            </th>
+            <th>
+                Giá
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Homestay)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HomestayName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.District)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Commune)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+
+                <td>
+                    @if (item.Status)
+                    {
+                        <text>ACTIVE</text>
+                    }
+                    else
+                    {
+                        <text>INACTIVE</text>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+
+                <td>
+                    <div style="margin-top:5px;">
+                        <a class="btn_action" asp-page="./Edit" asp-route-id="@item.HomestayId">Edit</a>
+
+                    </div>
+                    <div style="margin-top:5px;">
+                        <a class="btn_action" asp-page="./Details" asp-route-id="@item.HomestayId">Details</a>
+
+                    </div>
+                    <div style="margin-top:5px;">
+                        @if (item.Status)
+                        {
+                            <a class="btn_action" style="color:orange" asp-page="./Delete" asp-route-id="@item.HomestayId">Delete</a>
+                        }
+                        else
+                        {
+                            <button class="btn_action" style="color:orange" asp-page="./Delete" disabled asp-route-id="@item.HomestayId">Delete</button>
+                        }
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.Homestay.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.Homestay.HasNextPage ? "disabled" : "";
+}
+
+<button id="prevBtn"
+        class="btn btn-primary @prevDisabled">
+    Previous
+</button>
+
+<button id="nextBtn"
+        class="btn btn-primary @nextDisabled">
+    Next
+</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+
+    $('#prevBtn').click(() => {
+        $('#pageIndexInput').val(@(Model.Homestay.PageIndex - 1))
+        $('#searchForm').submit()
+    })
+
+    $('#nextBtn').click(() => {
+        $('#pageIndexInput').val(@(Model.Homestay.PageIndex + 1))
+        $('#searchForm').submit()
+    })
+
+    
+</script>

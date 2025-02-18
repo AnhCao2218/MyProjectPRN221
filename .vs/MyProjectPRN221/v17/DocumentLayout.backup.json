@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ki7\\PRN221\\MyProjectPRN221\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\homestays\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\homestays\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\homestays\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\homestays\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\discounts\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\discounts\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\discounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\discounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\homestays\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\homestays\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\homestays\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\homestays\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\homestays\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\homestays\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\forgotpassword\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\forgotpassword\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\forgotpassword\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\forgotpassword\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|d:\\ki7\\prn221\\myprojectprn221\\annahomestay\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A345C497-A98D-4C91-BD9E-98D5D3256195}|AnNaHomeStay\\AnNaHomeStay.csproj|solutionrelative:annahomestay\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 339,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\HomeStays\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\HomeStays\\Index.cshtml.cs",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\HomeStays\\Index.cshtml.cs",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\HomeStays\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T01:37:44.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\HomeStays\\Index.cshtml",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\HomeStays\\Index.cshtml",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\HomeStays\\Index.cshtml",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\HomeStays\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T01:37:42.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\Discounts\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\Discounts\\Create.cshtml.cs",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\Discounts\\Create.cshtml.cs",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\Discounts\\Create.cshtml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T01:06:20.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\Discounts\\Create.cshtml",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\Discounts\\Create.cshtml",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\Discounts\\Create.cshtml",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\Discounts\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T01:06:17.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAE0AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T04:19:01.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\HomeStays\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\HomeStays\\Details.cshtml.cs",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\HomeStays\\Details.cshtml.cs",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\HomeStays\\Details.cshtml.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAwwJEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:26:55.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\HomeStays\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\HomeStays\\Create.cshtml.cs",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\HomeStays\\Create.cshtml.cs",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\HomeStays\\Create.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:17:41.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\ForgotPassword\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\ForgotPassword\\Index.cshtml.cs",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\ForgotPassword\\Index.cshtml.cs",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\ForgotPassword\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:10:48.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\ForgotPassword\\Index.cshtml",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\ForgotPassword\\Index.cshtml",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\ForgotPassword\\Index.cshtml",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\ForgotPassword\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T03:10:45.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAADwv1QAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:09:42.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\Index.cshtml",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T02:55:24.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\HomeStays\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "AnNaHomeStay\\Pages\\HomeStays\\Delete.cshtml.cs",
+              "ToolTip": "D:\\Ki7\\PRN221\\MyProjectPRN221\\AnNaHomeStay\\Pages\\HomeStays\\Delete.cshtml.cs",
+              "RelativeToolTip": "AnNaHomeStay\\Pages\\HomeStays\\Delete.cshtml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwD4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:22:55.866Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 274,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

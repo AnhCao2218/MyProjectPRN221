@@ -1,0 +1,82 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<link href="~/css/Home.css" rel="stylesheet" />
+
+<div id="banner">
+    <img src="~/Images/52bb9792-577a-4d50-82fa-8353f5bc2b38_homestay1.jpg" style="width: 100%; max-height: 600px" />
+</div>
+
+<div class="text-center" style="">
+    <h1 style="color:#5c5d5e;margin-bottom:20px;">CONTINENTAL HOMESTAY </h1>
+</div>
+
+<form method="post" class="search">
+    <input type="text" asp-for="Search.SearchString" placeholder="Nhập Homestay bạn muốn tìm ..."/>
+   
+    <button type="submit" class="search-button">
+        Tìm kiếm
+    </button>
+</form>
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-4">
+        @foreach(var item in Model.HomeStayDtos)
+        {
+        <div class="col mb-4" style="height:400px">
+            <div class="homestay">
+                <a href="/HomeStays/Details?id=@item.Homestay.HomestayId" style="text-decoration:none">
+                        @if (item.Homestay.Images.Any())
+                        {
+                            <img src="@item.Homestay.Images.First().Link" class="card-img-top" alt="..." style="margin-bottom: 20px;">
+                        }
+                    <div class="overlay">
+                            <h5 class="card-title" style="color:black">@item.Homestay.HomestayName</h5>
+                            @if (@item.PriceWhenSell != item.Homestay.Price)
+                            {
+                                <s class="card-text" style="color: red">@item.Homestay.Price.ToString("0.00") VND / night</s>
+                                <p class="card-text" style="color: black">@item.PriceWhenSell.ToString("0.00") VND / night</p>
+                            }
+                            else
+                            {
+                                <p class="card-text" style="color: black">@item.Homestay.Price.ToString("0.00") VND / night</p>
+                            }
+                            
+                    </div>
+                </a>
+            </div>
+        </div>
+        }
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+
+    const bannerImage = [
+    '1a04ee63-efcd-4790-b9ee-96042eae24dc_homestay5.jpg', 
+    '02f2a6bb-7b24-4c39-8b0b-76174f1dadac_homestay4.jpg',
+    '2c628bf5-3a10-488c-bc0f-e58374d658f0_homestay2.jpg',
+    '52bb9792-577a-4d50-82fa-8353f5bc2b38_homestay1.jpg'
+    ];
+
+    let count = 0;
+    const bannerElement = document.getElementById('banner');
+
+    setInterval(() => {
+        const img = bannerImage[count];
+        bannerElement.innerHTML = `
+            <img src="Images/${img}" style="width: 100%; max-height: 600px" />
+        `;
+        count++;
+        if (count === 4) count = 0;
+    }, 3000);
+
+
+    
+</script>
